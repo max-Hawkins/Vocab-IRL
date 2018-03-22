@@ -2,19 +2,19 @@
     "name": "Vocab IRL",
     "version": "1.0",
     "description": "Learn and use vocab in your target language as you surf the web like normal. No hassle with boring books or glitchy webpages!",
-    "permissions": ["declarativeContent","storage"],
+    "permissions": ["declarativeContent", "storage"],
     "background": {
         "scripts": ["background.js"],
         "persistent": false
     },
     "page_action": {
-        "default_popup": "popup.html",
-        "default_icon": {
-            "16": "ïmages/get_started16.png",
-            "32": "ïmages/get_started32.png",
-            "48": "ïmages/get_started48.png",
-            "128": "ïmages/get_started128.png"
-        }
+      "default_popup": "popup.html",
+      "default_icon": {
+        "16": "images/get_started16.png",
+        "32": "images/get_started32.png",
+        "48": "images/get_started48.png",
+        "128": "images/get_started128.png"
+      }
     },
     "icons": {
       "16": "images/get_started16.png",
