@@ -2,5 +2,9 @@
     "name": "Vocab IRL",
     "version": "1.0",
     "description": "Learn and use vocab in your target language as you surf the web like normal. No hassle with boring books or glitchy webpages!",
+    "background": {
+        "scripts": ["background.js"],
+        "persistent": false
+    },
     "manifest_version": 2
 }
